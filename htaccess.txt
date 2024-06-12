@@ -1,0 +1,5 @@
+# .htaccess
+
+RewriteEngine On
+RewriteRule ^$ controllers/index.php [L]
+RewriteRule (.*) controllers/$1 [L]
